@@ -1,0 +1,12 @@
+
+
+<li class="list-group-item" [ngClass]="{'my-message': minhaMensagem()}" >
+
+
+    <p class="bg-primary">{{mensagem['author']}}</p>
+    <p>{{mensagem['message']}} </p>
+    <p>{{mensagem['time'] | date:"dd/MM/yyyy '-' h:mma"}}</p>
+</li>
+
+
+
